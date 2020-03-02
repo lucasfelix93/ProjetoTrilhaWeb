@@ -1,10 +1,14 @@
 @charset "UTF-8";
 
+/*Configuração geral do corpo da página*/
+
 body{
     margin: 0 auto;
     font-family: "Century Gothic", sans-serif;
 }
+/******************************LAYOUT GERAL*************************************/
 
+/*****************************CABEÇALHO*****************************************/
 header{
     height: 120px;
     background-color: #008eb6;
@@ -27,6 +31,7 @@ header h1{
     color: #fff;
 }
 
+/****************    MENU      ***************/
 nav{
     clear: both;
     width: 70%;
@@ -51,11 +56,15 @@ nav .opcao:hover{
     background-color: #83afd3;
 }
 
+
+/***  Dropdown baseado em W3Schools - https://w3schools/css/css_dropdowns.asp)  */ /* NOVO*/ 
+/*Usado para posicionar o conteúdo dropdown*/
 .dropdown{
     position: relative;
     display: inline-block;
 }
 
+/*Conteúdo Dropdown (oculto por padrão)*/
 .dropdown-content{
     display: none;
     position: absolute;
@@ -64,18 +73,23 @@ nav .opcao:hover{
     width: 100%;
 }
 
+/***Links dentro do dropdown***/
 .dropdown-content a{
     display: block;
 }
 
+/** Mudar a cor dos links dropdown ao passar o mouse **/
 .dropdown-content a:hover{
     background-color: #83afd3;
 }
 
+/** Mostrar o menu dropdown menu ao passar o mouse**/
 .dropdown:hover .dropdown-content{
     display: block;
 }
 
+
+/***           SEÇÃO             ***/
 section{
     clear: both;
     min-height: 460px;
@@ -83,6 +97,8 @@ section{
     margin-top: 0px;
 }
 
+
+/* rodapé */
 footer{
     background-color: #005f89;
     color: #fff;
