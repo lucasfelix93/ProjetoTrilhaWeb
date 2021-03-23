@@ -1,0 +1,4 @@
+127.0.0.1 - - [22/Mar/2021:20:45:08 -0300] "GET / HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [22/Mar/2021:20:45:32 -0300] "GET /exemploServlet/contato.html HTTP/1.1" 200 1817
+0:0:0:0:0:0:0:1 - - [22/Mar/2021:20:45:32 -0300] "GET /exemploServlet/style.css HTTP/1.1" 200 240
+0:0:0:0:0:0:0:1 - - [22/Mar/2021:20:45:52 -0300] "GET /exemploServlet/insereContato?txtNome=Aaa+Aaa&txtEndereco=Bbb+Bbb&txtTelefone=%2811%291234-1234 HTTP/1.1" 200 208
