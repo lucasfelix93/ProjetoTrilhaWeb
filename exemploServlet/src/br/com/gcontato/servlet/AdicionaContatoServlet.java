@@ -27,7 +27,7 @@ public class AdicionaContatoServlet extends HttpServlet{
 		out.println("</head>");
 		out.println("<body>");
 		out.println("<fieldset>");
-		out.println("<legend>Contato</legend>");
+		out.println("<legend>Contato:</legend>");
 		out.println("<table>");
 		out.println("<td>" + nome + "</td>");
 		out.println("</tr>");
