@@ -41,7 +41,6 @@ public class AdicionaContatoServlet extends HttpServlet{
 		out.println("</body>");
 		out.println("</html>");
 
-		
 
 	}
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)

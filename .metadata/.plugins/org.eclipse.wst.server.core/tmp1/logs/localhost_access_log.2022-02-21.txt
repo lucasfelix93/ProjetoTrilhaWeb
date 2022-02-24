@@ -1,0 +1,7 @@
+127.0.0.1 - - [21/Feb/2022:19:08:44 -0300] "GET / HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [21/Feb/2022:19:08:46 -0300] "GET /exemploServlet/ HTTP/1.1" 200 1824
+0:0:0:0:0:0:0:1 - - [21/Feb/2022:19:08:46 -0300] "GET /exemploServlet/style.css HTTP/1.1" 200 240
+0:0:0:0:0:0:0:1 - - [21/Feb/2022:19:12:21 -0300] "GET /exemploServlet/contatinho(teste).html HTTP/1.1" 200 845
+127.0.0.1 - - [21/Feb/2022:21:42:03 -0300] "GET / HTTP/1.1" 404 763
+127.0.0.1 - - [21/Feb/2022:21:59:39 -0300] "GET / HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [21/Feb/2022:22:02:10 -0300] "GET /exemploServlet/insereContato?txtNome=Lucas+Siva&txtEndereco=Rua+Jose&txtTelefone=%2833%291234-1234 HTTP/1.1" 200 213

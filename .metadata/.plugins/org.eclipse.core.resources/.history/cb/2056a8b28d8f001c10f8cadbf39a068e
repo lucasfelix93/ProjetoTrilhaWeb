@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" type ="text/css" href="style.css">
+
+<title>Contatos</title>
+</head>
+<body>
+	<fieldset class="formulario">
+	<legend>Contatos</legend>
+	<form>
+		<div class="campo">
+			<label>Nome:</label>
+			<input name="txtNome" type="text"/>
+		</div>
+		
+		<div class="campo">
+			<label> Endereço:</label>
+			<input name="txtEndereco" type="text"/>
+		</div>
+		
+		<div class="campo">
+			<label>Telefone:</label>
+			<input name="txtTelefone" type="text"/>
+		</div>
+		<div>
+			<button>Enviar</button>
+			<button>Limpar</button>
+		</div>
+	</form>
+	</fieldset>
+</body>
+</html>
