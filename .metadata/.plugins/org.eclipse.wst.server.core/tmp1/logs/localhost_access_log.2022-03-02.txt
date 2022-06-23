@@ -1,0 +1,11 @@
+127.0.0.1 - - [02/Mar/2022:19:12:01 -0300] "GET / HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [02/Mar/2022:19:12:02 -0300] "GET /ProjetoTrilhaWeb/ HTTP/1.1" 200 1680
+0:0:0:0:0:0:0:1 - - [02/Mar/2022:19:12:02 -0300] "GET /ProjetoTrilhaWeb/imgs/logo.png HTTP/1.1" 200 109630
+0:0:0:0:0:0:0:1 - - [02/Mar/2022:19:12:02 -0300] "GET /ProjetoTrilhaWeb/css/site.css HTTP/1.1" 200 2816
+0:0:0:0:0:0:0:1 - - [02/Mar/2022:19:12:02 -0300] "GET /ProjetoTrilhaWeb/imgs/geladeira2.png HTTP/1.1" 200 18537
+0:0:0:0:0:0:0:1 - - [02/Mar/2022:19:12:02 -0300] "GET /ProjetoTrilhaWeb/imgs/geladeira1.png HTTP/1.1" 200 21198
+0:0:0:0:0:0:0:1 - - [02/Mar/2022:19:12:13 -0300] "GET /ProjetoTrilhaWeb/pages/admin HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [02/Mar/2022:19:12:13 -0300] "GET /ProjetoTrilhaWeb/pages/admin/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [02/Mar/2022:19:12:14 -0300] "GET /favicon.ico HTTP/1.1" 404 774
+0:0:0:0:0:0:0:1 - - [02/Mar/2022:20:45:12 -0300] "GET /ProjetoTrilhaWeb/pages/admin/ HTTP/1.1" 200 843
+0:0:0:0:0:0:0:1 - - [02/Mar/2022:21:08:07 -0300] "GET /ProjetoTrilhaWeb/index.html HTTP/1.1" 200 1680

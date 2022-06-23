@@ -6,4 +6,22 @@
     <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
     <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.sql.Driver"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="br.com.coldigogeladeiras.jdbcinterface.MarcaDAO"/>
+    <fullyQualifiedTypeName name="br.com.coldigogeladeiras.jdbc.JDBCMarcaDAO"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+    <fullyQualifiedTypeName name="br.com.coldigogeladeiras.modelo.Marca"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.core.Response"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.core.Response.ResponseBuilder"/>
+    <fullyQualifiedTypeName name="javax.ws.rs.core.Response.Status"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="br.com.coldigogeladeiras.modelo.Produto"/>
+    <fullyQualifiedTypeName name="br.com.coldigogeladeiras.bd.Conexao"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="br.com.coldigogeladeiras.jdbc.JDBCProdutoDAO"/>
 </qualifiedTypeNameHistroy>

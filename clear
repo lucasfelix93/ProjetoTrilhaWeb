@@ -1,0 +1,250 @@
+[33mcommit 35a12050f7ec3527d9c0863a07ca633c37dc2882[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: lucasfelix93 <lucas_felix-silva@estudante.sc.senai.br>
+Date:   Wed Feb 23 21:20:02 2022 -0300
+
+    Commit teste da OT4
+
+[1mdiff --git a/.metadata/.log b/.metadata/.log[m
+[1mindex 62afa7b..448f3a2 100644[m
+[1m--- a/.metadata/.log[m
+[1m+++ b/.metadata/.log[m
+[36m@@ -3904,3 +3904,6280 @@[m [muser global configuration and to define the default location to store repositori[m
+ not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and[m
+ EGit might behave differently since they see different configuration options.[m
+ This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.[m
+[32m+[m[32m!SESSION 2021-03-22 21:54:13.911 -----------------------------------------------[m
+[32m+[m[32meclipse.buildId=4.18.0.I20201202-1800[m
+[32m+[m[32mjava.version=14.0.1[m
+[32m+[m[32mjava.vendor=Oracle Corporation[m
+[32m+[m[32mBootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR[m
+[32m+[m[32mFramework arguments:  -product org.eclipse.epp.package.jee.product[m
+[32m+[m[32mCommand-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product[m
+[32m+[m
+[32m+[m[32m!ENTRY org.eclipse.jface 4 0 2021-03-22 21:54:22.005[m
+[32m+[m[32m!MESSAGE /icons/full/eview16/resource_persp.gif[m
+[32m+[m[32m!STACK 0[m
+[32m+[m[32mjava.io.FileNotFoundException: /icons/full/eview16/resource_persp.gif[m
+[32m+[m	[32mat org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)[m
+[32m+[m	[32mat org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:174)[m
+[32m+[m	[32mat java.base/java.net.URL.openConnection(URL.java:1101)[m
+[32m+[m	[32mat org.eclipse.core.internal.boot.PlatformURLConnection.connect(PlatformURLConnection.java:115)[m
+[32m+[m	[32mat org.eclipse.core.internal.boot.PlatformURLConnection.getURLAsLocal(PlatformURLConnection.java:240)[m
+[32m+[m	[32mat org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:37)[m
+[32m+[m	[32mat org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:261)[m
+[32m+[m	[32mat org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:243)[m
+[32m+[m	[32mat org.eclipse.jface.resource.URLImageDescriptor.access$2(URLImageDescriptor.java:231)[m
+[32m+[m	[32mat org.eclipse.jface.resource.URLImageDescriptor$URLImageFileNameProvider.getImagePath(URLImageDescriptor.java:58)[m
+[32m+[m	[32mat org.eclipse.swt.internal.DPIUtil.validateAndGetImagePathAtZoom(DPIUtil.java:419)[m
+[32m+[m	[32mat org.eclipse.swt.graphics.Image.<init>(Image.java:687)[m
+[32m+[m	[32mat org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:274)[m
+[32m+[m	[32mat org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:227)[m
+[32m+[m	[32mat org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)[m
+[32m+[m	[32mat org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)[m
+[32m+[m	[32mat org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)[m
+[32m+[m	[32mat org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:218)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:228)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:794)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:196)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)[m
+[32m+[m	[32mat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)[m
+[32m+[m	[32mat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)[m
+[32m+[m	[32mat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)[m
+[32m+[m	[32mat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)[m
+[32m+[m	[32mat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:666)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)[m
+[32m+[m	[32mat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)[m
+[32m+[m	[32mat org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)[m
+[32m+[m	[32mat org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)[m
+[32m+[m	[32mat org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)[m
+[32m+[m	[32mat org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)[m
+[32m+[m	[32mat org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)[m
+[32m+[m	[32mat org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)[m
+[32m+[m	[32mat org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)[m
+[32m+[m	[32mat org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)[m
+[32m+[m	[32mat org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)[m
+[32m+[m	[32mat org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)[m
+[32m+[m	[32mat org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)[m
+[32m+[m	[32mat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m
+[32m+[m	[32mat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[m
+[32m+[m	[32mat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[m
+[32m+[m	[32mat java.base/java.lang.reflect.Method.invoke(Method.java:564)[m
+[32m+[m	[32mat org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)[m
+[32m+[m	[32mat org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)[m
+[32m+[m	[32mat org.eclipse.equinox.launcher.Main.run(Main.java:1461)[m
+[32m+[m
+[32m+[m[32m!ENTRY org.eclipse.jface 2 0 2021-03-22 21:54:22.023[m
+[32m+[m[32m!MESSAGE The image could not be loaded: URLImageDescriptor(platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.gif)[m
+[32m+[m[32m!STACK 0[m
+[32m+[m[32morg.eclipse.jface.resource.DeviceResourceException: Unable to create resource URLImageDescriptor(platform:/plugin/org.eclipse.ui.navigator.resources/icons/full/eview16/resource_persp.gif)[m
+[32m+[m	[32mat org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:229)[m
+[32m+[m	[32mat org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)[m
+[32m+[m	[32mat org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)[m
+[32m+[m	[32mat org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)[m
+[32m+[m	[32mat org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:218)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:228)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:794)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:196)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)[m
+[32m+[m	[32mat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)[m
+[32m+[m	[32mat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveRenderer.processContents(PerspectiveRenderer.java:51)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)[m
+[32m+[m	[32mat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.showTab(PerspectiveStackRenderer.java:82)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.postProcess(LazyStackRenderer.java:114)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.PerspectiveStackRenderer.postProcess(PerspectiveStackRenderer.java:64)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:677)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)[m
+[32m+[m	[32mat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SashRenderer.processContents(SashRenderer.java:150)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)[m
+[32m+[m	[32mat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.processContents(SWTPartRenderer.java:71)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer.processContents(WBWRenderer.java:666)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:765)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$2.run(PartRenderingEngine.java:730)[m
+[32m+[m	[32mat org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.createGui(PartRenderingEngine.java:714)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1083)[m
+[32m+[m	[32mat org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)[m
+[32m+[m	[32mat org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)[m
+[32m+[m	[32mat org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)[m
+[32m+[m	[32mat org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:551)[m
+[32m+[m	[32mat org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:156)[m
+[32m+[m	[32mat org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)[m
+[32m+[m	[32mat org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)[m
+[32m+[m	[32mat org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)[m
+[32m+[m	[32mat org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)[m
+[32m+[m	[32mat org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)[m
+[32m+[m	[32mat org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)[m
+[32m+[m	[32mat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[m
+[32m+[m	[32mat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[m
+[32m+[m	[32mat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[m
+[32m+[m	[32mat java.base/java.lang.reflect.Method.invoke(Method.java:564)[m
+[32m+[m	[32mat org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)[m
+[32m+[m	[32mat org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)[m
+[32m+[m	[32mat org.eclipse.equinox.launcher.Main.run(Main.java:1461)[m
+[32m+[m
+[32m+[m[32m!ENTRY org.eclipse.jface 2 0 2021-03-22 21:54:22.074[m
+[32m+[m[32m!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.[m
+[32m+[m[32m!SUBENTRY 1 org.eclipse.jface 2 0 2021-03-22 21:54:22.074[m
+[32m+[m[32m!MESSAGE A conflict occurred for CTRL+SHIFT+T:[m
+[32m+[m[32mBinding(CTRL+SHIFT+T,[m
+[32m+[m	[32mParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,[m
+[32m+[m		[32mOpen a type in a Java editor,[m
+[32m+[m		[32mCategory(org.eclipse.ui.category.navigate,Navigate,null,true),[m
+[32m+[m		[32morg.eclipse.ui.internal.WorkbenchHandlerServiceHandler@30b29f55,[m
+[32m+[m		[32m,,true),null),[m
+[32m+[m	[32morg.eclipse.ui.defaultAcceleratorConfiguration,[m
+[32m+[m	[32morg.eclipse.ui.contexts.window,,,system)[m
+[32m+[m[32mBinding(CTRL+SHIFT+T,[m
+[32m+[m	[32mParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,[m
+[32m+[m		[32m,[m
+[32m+[m		[32mCategory(org.eclipse.lsp4e.category,Language Servers,null,true),[m
+[32m+[m		[32morg.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3eadfbbb,[m
+[32m+[m		[32m,,true),null),[m
+[32m+[m	[32morg.eclipse.ui.defaultAcceleratorConfiguration,[m
+[32m+[m	[32morg.eclipse.ui.contexts.window,,,system)[m
+[32m+[m
+[32m+[m[32m!ENTRY org.eclipse.egit.ui 2 0 2021-03-22 21:54:31.761[m
+[32m+[m[32m!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git[m
+[32m+[m[32muser global configuration and to define the default location to store repositories: 'C:\Users\Cliente'. If this is[m
+[32m+[m[32mnot correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and[m
+[32m+[m[32mEGit might behave differently since they see different configuration options.[m
+[32m+[m[32mThis warning can be switched off on the Team > Git > Confirmations and Warnings preference page.[m
+[32m+[m[32m!SESSION 2021-03-22 21:57:57.359 -----------------------------------------------[m
+[32m+[m[32meclipse.buildId=4.18.0.I20201202-1800[m
+[32m+[m[32mjava.version=14.0.1[m
+[32m+[m[32mjava.vendor=Oracle Corporation[m
+[32m+[m[32mBootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pt_BR[m
+[32m+[m[32mFramework arguments:  -product org.eclipse.epp.package.jee.product[m
+[32m+[m[32mCommand-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product[m
+[32m+[m
+[32m+[m[32m!ENTRY org.eclipse.jface 4 0 2021-03-22 21:58:08.381[m
+[32m+[m[32m!MESSAGE /icons/full/eview16/resource_persp.gif[m
+[32m+[m[32m!STACK 0[m
+[32m+[m[32mjava.io.FileNotFoundException: /icons/full/eview16/resource_persp.gif[m
+[32m+[m	[32mat org.eclipse.osgi.storage.url.bundleentry.Handler.findBundleEntry(Handler.java:55)[m
+[32m+[m	[32mat org.eclipse.osgi.storage.url.BundleResourceHandler.openConnection(BundleResourceHandler.java:174)[m
+[32m+[m	[32mat java.base/java.net.URL.openConnection(URL.java:1101)[m
+[32m+[m	[32mat org.eclipse.core.internal.boot.PlatformURLConnection.connect(PlatformURLConnection.java:115)[m
+[32m+[m	[32mat org.eclipse.core.internal.boot.PlatformURLConnection.getURLAsLocal(PlatformURLConnection.java:240)[m
+[32m+[m	[32mat org.eclipse.core.internal.runtime.PlatformURLConverter.toFileURL(PlatformURLConverter.java:37)[m
+[32m+[m	[32mat org.eclipse.core.runtime.FileLocator.toFileURL(FileLocator.java:261)[m
+[32m+[m	[32mat org.eclipse.jface.resource.URLImageDescriptor.getFilePath(URLImageDescriptor.java:243)[m
+[32m+[m	[32mat org.eclipse.jface.resource.URLImageDescriptor.access$2(URLImageDescriptor.java:231)[m
+[32m+[m	[32mat org.eclipse.jface.resource.URLImageDescriptor$URLImageFileNameProvider.getImagePath(URLImageDescriptor.java:58)[m
+[32m+[m	[32mat org.eclipse.swt.internal.DPIUtil.validateAndGetImagePathAtZoom(DPIUtil.java:419)[m
+[32m+[m	[32mat org.eclipse.swt.graphics.Image.<init>(Image.java:687)[m
+[32m+[m	[32mat org.eclipse.jface.resource.URLImageDescriptor.createImage(URLImageDescriptor.java:274)[m
+[32m+[m	[32mat org.eclipse.jface.resource.ImageDescriptor.createResource(ImageDescriptor.java:227)[m
+[32m+[m	[32mat org.eclipse.jface.resource.DeviceResourceManager.allocate(DeviceResourceManager.java:55)[m
+[32m+[m	[32mat org.eclipse.jface.resource.AbstractResourceManager.create(AbstractResourceManager.java:88)[m
+[32m+[m	[32mat org.eclipse.jface.resource.ResourceManager.createImageWithDefault(ResourceManager.java:195)[m
+[32m+[m	[32mat org.eclipse.jface.resource.ImageRegistry.get(ImageRegistry.java:206)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImageFromURI(SWTPartRenderer.java:218)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.SWTPartRenderer.getImage(SWTPartRenderer.java:228)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.StackRenderer.createTab(StackRenderer.java:794)[m
+[32m+[m	[32mat org.eclipse.e4.ui.workbench.renderers.swt.LazyStackRenderer.processContents(LazyStackRenderer.java:196)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeCreateGui(PartRenderingEngine.java:673)[m
+[32m+[m	[32mat org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngi

@@ -1,0 +1,14 @@
+127.0.0.1 - - [19/May/2022:19:48:37 -0300] "GET / HTTP/1.1" 404 763
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:48 -0300] "GET /ProjetoTrilhaWeb/pages/admin HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:48 -0300] "GET /ProjetoTrilhaWeb/pages/admin/ HTTP/1.1" 200 977
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:48 -0300] "GET /ProjetoTrilhaWeb/css/admin.css HTTP/1.1" 200 2835
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:48 -0300] "GET /ProjetoTrilhaWeb/js/admin.js HTTP/1.1" 200 1208
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:48 -0300] "GET /ProjetoTrilhaWeb/css/jquery-ui.css HTTP/1.1" 200 36954
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:48 -0300] "GET /ProjetoTrilhaWeb/js/jquery-ui.js HTTP/1.1" 200 529062
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:50 -0300] "GET /ProjetoTrilhaWeb/pages/admin/general/header.html HTTP/1.1" 200 965
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:50 -0300] "GET /ProjetoTrilhaWeb/pages/admin/general/footer.html HTTP/1.1" 200 39
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:50 -0300] "GET /favicon.ico HTTP/1.1" 404 774
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:50 -0300] "GET /ProjetoTrilhaWeb/imgs/logo.png HTTP/1.1" 200 109630
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:53 -0300] "GET /ProjetoTrilhaWeb/pages/admin/product/ HTTP/1.1" 200 1132
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:53 -0300] "GET /ProjetoTrilhaWeb/js/product.js HTTP/1.1" 200 3044
+0:0:0:0:0:0:0:1 - - [19/May/2022:19:48:56 -0300] "GET /ProjetoTrilhaWeb/rest/marca/buscar HTTP/1.1" 200 84

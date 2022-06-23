@@ -2,13 +2,46 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+
+<title>Contato</title>
+
+<script>
+function validaFormulario(){
+	var nome = document.frmContato.txtNome.value;
+	var expRegNome = new RegExp("^[A-zÀ-ü]{3,}([ ]{1}[A-zÀ-ü]{2,})+$");
+	
+	if(!expRegNome.test(nome)){
+		alert("Informe o Nome e Sobrenome corretamente.");
+		document.frmContato.txtNome.focus();
+		return false;
+	}
+	var endereco = document.frmContato.txtEndereco.value;
+	var expRegEndereco = new RegExp("^[A-zÀ-ü]{3,}([ ]{1}[A-zÀ-ü]{2,})+$")
+	
+	if(!expRegEndereco.test(endereco)){
+		alert("Informe o endereço corretamente.");
+		document.frmContato.txtEndereco.focus();
+		return false;
+	}
+	
+	var fone = document.frmContato.txtTelefone.value;
+	var expRegFone = new RegExp("^[(]{1}[1-9]{2}[)]{1}[0-9]{4,5}[-]{1}[0-9]{4}$")
+	
+	if (!expRegFone.test(fone)){
+		alert("Preencha o campo Telefone corretamente");
+		document.frmContato.txtTelefone.focus();
+		return false;
+	}
+	alert("Orçamento efetuado com sucesso!")
+	return true;
+}
+</script>
 </head>
 <body>
-	<form>
 		<fieldset class="formulario">
 			<legend>Contato</legend>
-			<form name="frmContato" method="post" action insereContato>
+			<form name="frmContato" action="insereContato" onsubmit="return validaFormulario()">
 			<div class="campo">
 				<label for="txtNome">Nome:</label>
 				<input name="txtNome" type="text"/>
@@ -27,6 +60,5 @@
 			</div>
 			</form>
 		</fieldset>
-	</form>
 </body>
 </html>
