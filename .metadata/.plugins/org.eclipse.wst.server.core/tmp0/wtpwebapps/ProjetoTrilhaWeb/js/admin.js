@@ -3,6 +3,9 @@ COLDIGO = new Object();
 
 $(document).ready(function() {
 	
+	//Cria uma constante com valor da URI raiz do REST
+	COLDIGO.PATH = "/ProjetoTrilhaWeb/rest/";
+	
 	$("header").load("/ProjetoTrilhaWeb/pages/admin/general/header.html");
 	$("footer").load("/ProjetoTrilhaWeb/pages/admin/general/footer.html");
 	
@@ -33,7 +36,7 @@ $(document).ready(function() {
 				}
 			}
 		};
-		$("modalAviso").html(aviso);
-		$("modalAviso").dialog(modal);
+		$("#modalAviso").html(aviso);
+		$("#modalAviso").dialog(modal);
 	};
 });

@@ -16,7 +16,6 @@ CONSTRAINT fk_produtos_marcas
 
 SELECT * FROM marcas;
 select * from produtos;
-
 INSERT INTO marcas (id, nome) VALUES (01, "Consul");
 INSERT INTO marcas (id, nome) VALUES (02, "BrasClim");
 INSERT INTO marcas (id, nome) VALUES (03, "EletroSombra");

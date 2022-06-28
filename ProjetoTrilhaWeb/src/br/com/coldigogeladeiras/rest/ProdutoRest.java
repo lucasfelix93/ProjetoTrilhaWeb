@@ -11,16 +11,18 @@ import com.google.gson.Gson;
 import br.com.coldigogeladeiras.bd.Conexao;
 import br.com.coldigogeladeiras.jdbc.JDBCProdutoDAO;
 import br.com.coldigogeladeiras.modelo.Produto;
+
 @Path("produto")
 public class ProdutoRest extends UtilRest{
 	@POST
 	@Path("/inserir")
-	@Consumes("aplication/*")
+	@Consumes("application/*")
 	
 	public Response inserir(String produtoParam) {
 		
 		try {
 			Produto produto = new Gson().fromJson(produtoParam, Produto.class);
+			
 			Conexao conec = new Conexao();
 			Connection conexao = conec.abrirConexao();
 			

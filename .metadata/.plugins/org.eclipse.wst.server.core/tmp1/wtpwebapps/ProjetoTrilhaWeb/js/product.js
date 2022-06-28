@@ -61,6 +61,7 @@ $(document).ready(function() {
 		COLDIGO.produto.cadastrar = function(){
 			
 			var produto = new Object();
+			
 			produto.categoria = document.frmAddProduto.categoria.value;
 			produto.marcaId = document.frmAddProduto.marcaId.value;
 			produto.modelo = document.frmAddProduto.modelo.value;
@@ -83,7 +84,7 @@ $(document).ready(function() {
 						
 					},
 					error: function (info) {
-						COLDIGO.exibirAviso("Erro ao cadastrar um novo produto" + info.status + " - " + info.statusText);
+						COLDIGO.exibirAviso("Erro ao cadastrar um novo produto " + info.status + " - " + info.statusText);
 					}
 				});
 			}

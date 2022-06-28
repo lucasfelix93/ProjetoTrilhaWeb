@@ -5,9 +5,10 @@ import java.sql.Connection;
 public class Conexao {
 	
 	private Connection conexao;
+	
 	public Connection abrirConexao(){
 		try {
-			Class.forName("com.mysql.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			conexao = java.sql.DriverManager.
 					getConnection("jdbc:mysql://localhost/bdcoldigo?"
 			+ "user=root&password=4G4p3@24&useTimezone=true&serverTimezone=UTC");
